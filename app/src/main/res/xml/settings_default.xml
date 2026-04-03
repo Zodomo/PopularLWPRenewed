@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/settings" android:key="default_wallpaper_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Energy Saving ES" android:orderingFromXml="true" android:key="energy_saving_settings">
+        <CheckBoxPreference android:enabled="true" android:title="Home Screen ES" android:key="hs_energy_saving" android:defaultValue="false" android:summaryOn="Home Screen ES enabled" android:summaryOff="Home Screen ES disabled" />
+        <com.CatShockEntertainment.LiveWallpaperLib.NumberEditPreference android:enabled="true" android:title="Time until FPS reduction" android:key="hs_es_time_to_reduced_fps" android:defaultValue="10" />
+        <com.CatShockEntertainment.LiveWallpaperLib.NumberEditPreference android:enabled="true" android:title="Reduced FPS" android:key="reduced_fps" android:defaultValue="5" />
+    </PreferenceCategory>
+</PreferenceScreen>

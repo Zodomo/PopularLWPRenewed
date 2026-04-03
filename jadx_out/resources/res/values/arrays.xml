@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="cameras">
+        <item>Camera 1</item>
+        <item>Camera 2</item>
+        <item>Camera 3</item>
+    </array>
+    <array name="visualization_style">
+        <item>Off</item>
+        <item>Waveform</item>
+        <item>Spectrum</item>
+        <item>Equalizer</item>
+    </array>
+</resources>

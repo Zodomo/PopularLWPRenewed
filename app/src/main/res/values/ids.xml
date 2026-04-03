@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <id name="colorPickerHSV_linearLayout" />
+    <id name="colorPickerHSV_LinearLayout_SV_H" />
+    <id name="colorPickerHSV_SV" />
+    <id name="colorPickerHSV_H" />
+    <id name="colorPickerHSV_HSector" />
+    <id name="colorPickerHSV_Preview" />
+    <id name="colorPickerHSV_CancelButton" />
+    <id name="colorPickerHSV_OkButton" />
+    <id name="colorPickerHSV_LinearLayout_H_HSector" />
+    <id name="launcher_toast_layout_root" />
+    <id name="launcher_toast_layout_image" />
+    <id name="launcher_toast_layout_text" />
+    <id name="editText_number" />
+    <id name="textView_label" />
+    <id name="linearLayout1" />
+    <id name="button_cancel" />
+    <id name="button_ok" />
+    <id name="seekBar" />
+    <id name="preference_ad" />
+    <id name="textView" />
+    <id name="button_rate" />
+    <id name="button_remind" />
+    <id name="button_nevermind" />
+    <id name="seekBar_slider" />
+    <id name="linearLayout01" />
+    <id name="ScrollView01" />
+    <id name="LinearLayout02" />
+    <id name="textView1" />
+    <id name="get_full_version_button_id" />
+    <id name="linearLayout03" />
+    <id name="visit_us_button_id" />
+    <id name="continue_button_id" />
+</resources>

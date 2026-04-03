@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Popular Lite</string>
+    <string name="settings">Settings</string>
+    <string name="get_full_version_button_caption">Get the full version!</string>
+    <string name="website_link_button_caption">Visit us!</string>
+    <string name="unlicensed_dialog_title">License validation failed</string>
+    <string name="unlicensed_dialog_body">The application license validation has failed. If you purchased it from Android Market, please make sure that synchronization of your Google account is enabled (settings -&gt; accounts) and try it again.</string>
+    <string name="buy_button">Buy app</string>
+    <string name="quit_button">Exit</string>
+    <string name="app_name_launcher">Popular LWP Lite</string>
+    <string name="other_apps_url">market://search?q=pub:CatShock Entertainment</string>
+    <string name="app_description">Popular Live Wallpaper makes you popular!</string>
+    <string name="trial_version_descryption">This free version of Popular Live Wallpaper is fully functional. If you like it, support this project and get the full version with lots of customization options.\n\n-Choose from two further stunning camera perspectives.\n\n-Adjust the evolving of the ground texture.\n\n-Change the altitude of the camera.\n\n-Adjust the rate of the patterns and the influence of music.\n\n-More patterns are available!\n\n-Choose from different styles of waveform or spectrum illustration. \n\n And more!</string>
+    <string name="get_full_version_android_market_url">https://market.android.com/details?id=com.CatShockEntertainment.PopularLiveWallpaper</string>
+</resources>

@@ -1,0 +1,156 @@
+.class public final Lcom/google/ads/am;
+.super Ljava/lang/Object;
+
+
+# direct methods
+.method public static a([BLjava/lang/String;)[B
+    .locals 6
+
+    const/16 v2, 0x10
+
+    array-length v0, p0
+
+    if-eq v0, v2, :cond_0
+
+    new-instance v0, Lcom/google/ads/an;
+
+    invoke-direct {v0}, Lcom/google/ads/an;-><init>()V
+
+    throw v0
+
+    :cond_0
+    :try_start_0
+    invoke-static {p1}, Lcom/google/ads/ap;->a(Ljava/lang/String;)[B
+
+    move-result-object v0
+
+    array-length v1, v0
+
+    if-gt v1, v2, :cond_1
+
+    new-instance v0, Lcom/google/ads/an;
+
+    invoke-direct {v0}, Lcom/google/ads/an;-><init>()V
+
+    throw v0
+    :try_end_0
+    .catch Ljava/security/NoSuchAlgorithmException; {:try_start_0 .. :try_end_0} :catch_0
+    .catch Ljava/security/InvalidKeyException; {:try_start_0 .. :try_end_0} :catch_1
+    .catch Ljavax/crypto/IllegalBlockSizeException; {:try_start_0 .. :try_end_0} :catch_2
+    .catch Ljavax/crypto/NoSuchPaddingException; {:try_start_0 .. :try_end_0} :catch_3
+    .catch Ljavax/crypto/BadPaddingException; {:try_start_0 .. :try_end_0} :catch_4
+    .catch Ljava/security/InvalidAlgorithmParameterException; {:try_start_0 .. :try_end_0} :catch_5
+
+    :catch_0
+    move-exception v0
+
+    new-instance v1, Lcom/google/ads/an;
+
+    invoke-direct {v1, v0}, Lcom/google/ads/an;-><init>(Ljava/lang/Throwable;)V
+
+    throw v1
+
+    :cond_1
+    :try_start_1
+    array-length v1, v0
+
+    invoke-static {v1}, Ljava/nio/ByteBuffer;->allocate(I)Ljava/nio/ByteBuffer;
+
+    move-result-object v1
+
+    invoke-virtual {v1, v0}, Ljava/nio/ByteBuffer;->put([B)Ljava/nio/ByteBuffer;
+
+    invoke-virtual {v1}, Ljava/nio/ByteBuffer;->flip()Ljava/nio/Buffer;
+
+    const/16 v2, 0x10
+
+    new-array v2, v2, [B
+
+    array-length v0, v0
+
+    add-int/lit8 v0, v0, -0x10
+
+    new-array v0, v0, [B
+
+    invoke-virtual {v1, v2}, Ljava/nio/ByteBuffer;->get([B)Ljava/nio/ByteBuffer;
+
+    invoke-virtual {v1, v0}, Ljava/nio/ByteBuffer;->get([B)Ljava/nio/ByteBuffer;
+
+    new-instance v1, Ljavax/crypto/spec/SecretKeySpec;
+
+    const-string v3, "AES"
+
+    invoke-direct {v1, p0, v3}, Ljavax/crypto/spec/SecretKeySpec;-><init>([BLjava/lang/String;)V
+
+    const-string v3, "AES/CBC/PKCS5Padding"
+
+    invoke-static {v3}, Ljavax/crypto/Cipher;->getInstance(Ljava/lang/String;)Ljavax/crypto/Cipher;
+
+    move-result-object v3
+
+    const/4 v4, 0x2
+
+    new-instance v5, Ljavax/crypto/spec/IvParameterSpec;
+
+    invoke-direct {v5, v2}, Ljavax/crypto/spec/IvParameterSpec;-><init>([B)V
+
+    invoke-virtual {v3, v4, v1, v5}, Ljavax/crypto/Cipher;->init(ILjava/security/Key;Ljava/security/spec/AlgorithmParameterSpec;)V
+
+    invoke-virtual {v3, v0}, Ljavax/crypto/Cipher;->doFinal([B)[B
+    :try_end_1
+    .catch Ljava/security/NoSuchAlgorithmException; {:try_start_1 .. :try_end_1} :catch_0
+    .catch Ljava/security/InvalidKeyException; {:try_start_1 .. :try_end_1} :catch_1
+    .catch Ljavax/crypto/IllegalBlockSizeException; {:try_start_1 .. :try_end_1} :catch_2
+    .catch Ljavax/crypto/NoSuchPaddingException; {:try_start_1 .. :try_end_1} :catch_3
+    .catch Ljavax/crypto/BadPaddingException; {:try_start_1 .. :try_end_1} :catch_4
+    .catch Ljava/security/InvalidAlgorithmParameterException; {:try_start_1 .. :try_end_1} :catch_5
+
+    move-result-object v0
+
+    return-object v0
+
+    :catch_1
+    move-exception v0
+
+    new-instance v1, Lcom/google/ads/an;
+
+    invoke-direct {v1, v0}, Lcom/google/ads/an;-><init>(Ljava/lang/Throwable;)V
+
+    throw v1
+
+    :catch_2
+    move-exception v0
+
+    new-instance v1, Lcom/google/ads/an;
+
+    invoke-direct {v1, v0}, Lcom/google/ads/an;-><init>(Ljava/lang/Throwable;)V
+
+    throw v1
+
+    :catch_3
+    move-exception v0
+
+    new-instance v1, Lcom/google/ads/an;
+
+    invoke-direct {v1, v0}, Lcom/google/ads/an;-><init>(Ljava/lang/Throwable;)V
+
+    throw v1
+
+    :catch_4
+    move-exception v0
+
+    new-instance v1, Lcom/google/ads/an;
+
+    invoke-direct {v1, v0}, Lcom/google/ads/an;-><init>(Ljava/lang/Throwable;)V
+
+    throw v1
+
+    :catch_5
+    move-exception v0
+
+    new-instance v1, Lcom/google/ads/an;
+
+    invoke-direct {v1, v0}, Lcom/google/ads/an;-><init>(Ljava/lang/Throwable;)V
+
+    throw v1
+.end method

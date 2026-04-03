@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.CatShockEntertainment.ColorPicker.HSVView android:layout_gravity="fill_vertical" android:orientation="horizontal" android:id="@id/colorPickerHSV_linearLayout" android:paddingLeft="12.0dp" android:paddingTop="12.0dp" android:paddingRight="12.0dp" android:paddingBottom="6.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="400.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.CatShockEntertainment.ColorPicker.SVView android:id="@id/colorPickerHSV_SV" android:background="#ffff0000" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="0.0dp" android:layout_marginTop="0.0dp" android:layout_marginRight="20.0dp" android:layout_marginBottom="10.0dp" android:minWidth="200.0dp" android:minHeight="200.0dp" android:layout_weight="0.5" />
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:minWidth="180.0dp" android:minHeight="200.0dp" android:layout_weight="0.5">
+        <LinearLayout android:orientation="horizontal" android:id="@id/colorPickerHSV_LinearLayout_H_HSector" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="0.5">
+            <com.CatShockEntertainment.ColorPicker.HView android:id="@id/colorPickerHSV_H" android:background="#ffff0000" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="0.0dp" android:layout_marginRight="10.0dp" android:layout_weight="0.333" />
+            <com.CatShockEntertainment.ColorPicker.HSectorView android:id="@id/colorPickerHSV_HSector" android:background="#ffff0000" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="10.0dp" android:layout_marginRight="0.0dp" android:layout_weight="0.333" />
+            <ImageView android:id="@id/colorPickerHSV_Preview" android:background="#ffff0000" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="20.0dp" android:layout_marginRight="0.0dp" android:layout_weight="0.333" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:paddingTop="20.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="0.5">
+            <Button android:id="@id/colorPickerHSV_CancelButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Cancel" android:layout_weight="0.5" />
+            <Button android:id="@id/colorPickerHSV_OkButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Ok" android:layout_weight="0.5" />
+        </LinearLayout>
+    </LinearLayout>
+</com.CatShockEntertainment.ColorPicker.HSVView>

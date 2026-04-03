@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/linearLayout01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/ScrollView01" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/LinearLayout02" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:layout_gravity="center" android:id="@id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dp" android:layout_marginTop="15.0dp" android:layout_marginRight="15.0dp" android:layout_marginBottom="0.0dp" android:maxWidth="400.0dp" />
+            <Button android:layout_gravity="center_horizontal" android:id="@id/get_full_version_button_id" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dp" android:layout_marginTop="15.0dp" android:layout_marginRight="15.0dp" android:layout_marginBottom="0.0dp" android:text="@string/get_full_version_button_caption" />
+            <LinearLayout android:layout_gravity="center_horizontal" android:id="@id/linearLayout03" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dp" android:layout_marginTop="10.0dp" android:layout_marginRight="15.0dp" android:layout_marginBottom="15.0dp">
+                <Button android:layout_gravity="center_horizontal" android:id="@id/visit_us_button_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/website_link_button_caption" android:layout_weight="0.5" />
+                <Button android:layout_gravity="center_horizontal" android:id="@id/continue_button_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Continue" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/settings"
+    android:key="popular_settings">
+    <PreferenceCategory
+        android:title="Camera"
+        android:orderingFromXml="true"
+        android:key="camera_settings">
+        <ListPreference
+            android:enabled="false"
+            android:entries="@array/cameras"
+            android:title="Camera"
+            android:selectable="false"
+            android:key="cameras"
+            android:defaultValue="Camera 1"
+            android:dialogTitle="Camera"
+            android:entryValues="@array/cameras"/>
+        <com.CatShockEntertainment.LiveWallpaperLib.SliderPreference
+            android:enabled="false"
+            android:title="Camera Altitude"
+            android:key="camera_height"/>
+        <com.CatShockEntertainment.LiveWallpaperLib.SliderPreference
+            android:enabled="true"
+            android:title="Camera Velocity"
+            android:key="camera_velocity"
+            android:defaultValue="0"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Interaction"
+        android:orderingFromXml="true"
+        android:key="interaction_settings">
+        <com.CatShockEntertainment.LiveWallpaperLib.SliderPreference
+            android:enabled="true"
+            android:title="Touch Sensibility"
+            android:key="touch_sensibility"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Visualization"
+        android:orderingFromXml="true"
+        android:key="visualisation_settings">
+        <com.CatShockEntertainment.LiveWallpaperLib.SliderPreference
+            android:enabled="false"
+            android:title="Animation Speed"
+            android:key="animation_speed"
+            android:defaultValue="0.4737"/>
+        <com.CatShockEntertainment.LiveWallpaperLib.SliderPreference
+            android:enabled="true"
+            android:title="Background Noise"
+            android:key="background_noise"
+            android:defaultValue="0.2"/>
+        <com.CatShockEntertainment.LiveWallpaperLib.SliderPreference
+            android:enabled="false"
+            android:title="Frequency of Patterns"
+            android:key="pattern_frequency"
+            android:defaultValue="0.2"/>
+        <com.CatShockEntertainment.LiveWallpaperLib.SliderPreference
+            android:enabled="false"
+            android:title="Translating Rectangles"
+            android:key="translating_rectangles_frequency"
+            android:defaultValue="0.5"/>
+        <com.CatShockEntertainment.LiveWallpaperLib.SliderPreference
+            android:enabled="false"
+            android:title="Flying Rectangles"
+            android:key="flying_rectangles_frequency"
+            android:defaultValue="0"/>
+        <com.CatShockEntertainment.LiveWallpaperLib.SliderPreference
+            android:enabled="false"
+            android:title="Growing Rectangles"
+            android:key="growing_rectangles_frequency"
+            android:defaultValue="0.5"/>
+        <com.CatShockEntertainment.LiveWallpaperLib.SliderPreference
+            android:enabled="false"
+            android:title="Shrinking Rectangles"
+            android:key="shrinking_rectangles_frequency"
+            android:defaultValue="0.5"/>
+        <com.CatShockEntertainment.LiveWallpaperLib.SliderPreference
+            android:enabled="false"
+            android:title="Route"
+            android:key="route_frequency"
+            android:defaultValue="0.5"/>
+        <com.CatShockEntertainment.LiveWallpaperLib.SliderPreference
+            android:enabled="false"
+            android:title="Rail Route"
+            android:key="raile_route_frequency"
+            android:defaultValue="0.5"/>
+        <com.CatShockEntertainment.LiveWallpaperLib.SliderPreference
+            android:enabled="false"
+            android:title="Star"
+            android:key="star_frequency"
+            android:defaultValue="0"/>
+        <com.CatShockEntertainment.LiveWallpaperLib.SliderPreference
+            android:enabled="false"
+            android:title="Growing Android"
+            android:key="growing_android_frequency"
+            android:defaultValue="0"/>
+        <com.CatShockEntertainment.LiveWallpaperLib.SliderPreference
+            android:enabled="false"
+            android:title="Growing Heart"
+            android:key="growing_heart_frequency"
+            android:defaultValue="0"/>
+        <com.CatShockEntertainment.LiveWallpaperLib.SliderPreference
+            android:enabled="false"
+            android:title="Decay"
+            android:key="decay"/>
+        <com.CatShockEntertainment.LiveWallpaperLib.SliderPreference
+            android:enabled="false"
+            android:title="Attenuation"
+            android:key="attenuation"/>
+        <CheckBoxPreference
+            android:enabled="false"
+            android:title="Excitement by Music"
+            android:selectable="false"
+            android:key="excitement_by_music"
+            android:defaultValue="true"
+            android:summaryOn="Excitement by Music enabled"
+            android:summaryOff="Excitement by Music disabled"/>
+        <com.CatShockEntertainment.LiveWallpaperLib.SliderPreference
+            android:enabled="false"
+            android:title="Excitement of Background Noise"
+            android:key="excitement_background_noise"/>
+        <com.CatShockEntertainment.LiveWallpaperLib.SliderPreference
+            android:enabled="false"
+            android:title="Excitement of Patterns"
+            android:key="excitement_pattern"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Spectrum Analyzer"
+        android:orderingFromXml="true"
+        android:key="spectrum_analyzer">
+        <ListPreference
+            android:enabled="false"
+            android:entries="@array/visualization_style"
+            android:title="Visualization Style"
+            android:selectable="false"
+            android:key="visualization_style"
+            android:defaultValue="Waveform"
+            android:dialogTitle="Visualization Style"
+            android:entryValues="@array/visualization_style"/>
+        <com.CatShockEntertainment.LiveWallpaperLib.SliderPreference
+            android:enabled="false"
+            android:title="Panel Size"
+            android:key="panel_size"
+            android:defaultValue="1"/>
+        <com.CatShockEntertainment.LiveWallpaperLib.SliderPreference
+            android:enabled="true"
+            android:title="Amplitude"
+            android:key="amplitude"
+            android:defaultValue="0.2"/>
+        <com.CatShockEntertainment.LiveWallpaperLib.ColorPickerPreference
+            android:enabled="false"
+            android:title="Color 1"
+            android:key="color_1"
+            android:defaultValue="0xffffffff"/>
+        <com.CatShockEntertainment.LiveWallpaperLib.ColorPickerPreference
+            android:enabled="false"
+            android:title="Color 2"
+            android:key="color_2"
+            android:defaultValue="0xff000000"/>
+        <com.CatShockEntertainment.LiveWallpaperLib.SliderPreference
+            android:enabled="false"
+            android:title="Opacity"
+            android:key="opacity"
+            android:defaultValue="1"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Energy Saving ES"
+        android:orderingFromXml="true"
+        android:key="energy_saving_settings">
+        <CheckBoxPreference
+            android:enabled="true"
+            android:title="Home Screen ES"
+            android:key="hs_energy_saving"
+            android:defaultValue="false"
+            android:summaryOn="Home Screen ES enabled"
+            android:summaryOff="Home Screen ES disabled"/>
+        <com.CatShockEntertainment.LiveWallpaperLib.NumberEditPreference
+            android:enabled="true"
+            android:title="Time until FPS reduction"
+            android:key="hs_es_time_to_reduced_fps"
+            android:defaultValue="10"/>
+        <com.CatShockEntertainment.LiveWallpaperLib.NumberEditPreference
+            android:enabled="true"
+            android:title="Reduced FPS"
+            android:key="reduced_fps"
+            android:defaultValue="5"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Information"
+        android:orderingFromXml="true"
+        android:key="information">
+        <PreferenceScreen
+            android:title="More Apps"
+            android:key="more_apps">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/other_apps_url"/>
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:title="Visit us"
+            android:key="visit_us">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="http://www.live-wallpaper.org"/>
+        </PreferenceScreen>
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,174 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android)
+
+Name: res/xml/settings_free.xml
+SHA1-Digest: pIu/rqyxyY27U/0G9fl5leWOqEg=
+
+Name: res/drawable-xxxhdpi-v4/icon.png
+SHA1-Digest: jLASP+V2vyFixvFvqvSF1zzAT1I=
+
+Name: res/layout/color_picker_hsv_dialog.xml
+SHA1-Digest: BQZo79XUr21YL64/3mcFjY4dECM=
+
+Name: assets/media/oscilloscope_texture_.bmp
+SHA1-Digest: UT8Wi+YM7lAMw7pGzlqI54vDTv8=
+
+Name: assets/media/oscilloscope_texture_2.bmp
+SHA1-Digest: 70vHSuzASbiZUx4t/t0xn9Xvc4s=
+
+Name: lib/mips/libpopular_native.so
+SHA1-Digest: HfWEkDtOLuDL7Tt5AFSy3YBEaRk=
+
+Name: jsr305_annotations/v0_r47/V0_r47.gwt.xml
+SHA1-Digest: /f34xYwskAvrKqRB+jFPzJ8rPJg=
+
+Name: assets/media/grid_final.frag
+SHA1-Digest: LoLPXwhdrsHm6mo0l9D9mmRVfvU=
+
+Name: assets/media/patterns/star_1.bmp
+SHA1-Digest: tB0u4mdFfpG9mB+BrpoXvk0oIYk=
+
+Name: assets/media/patterns/euro.bmp
+SHA1-Digest: 67JQ7+K5B+Tiy2Br+VJ9UNkt4YM=
+
+Name: res/drawable-hdpi-v4/icon.png
+SHA1-Digest: fzPuEmXhl2PDLFN9dbqgu4XwDE0=
+
+Name: assets/media/tile_texture3_small.bmp
+SHA1-Digest: t7f8q5XC64new7RlvHTYgmPy3T8=
+
+Name: lib/x86/libpopular_native.so
+SHA1-Digest: 7tr7EXd/J7BPE7H2YfUIbu2aA1Y=
+
+Name: res/drawable-xhdpi-v4/icon.png
+SHA1-Digest: hAhW+MtWloZZSuivGElpiWiKuD8=
+
+Name: jsr305_annotations/Jsr305_annotations.gwt.xml
+SHA1-Digest: UBXHoAGmseBGDwjR6/MFHfcIK7g=
+
+Name: res/xml/settings.xml
+SHA1-Digest: W/7HOdtyog0hsSqT2otQ86ZC5Eo=
+
+Name: assets/media/patterns/dollarx2.bmp
+SHA1-Digest: a0Ng4rYx3UxHDEkbdvxtYS+Idro=
+
+Name: assets/media/patterns/circle_1.bmp
+SHA1-Digest: Uji5hsDpDDK2q+UJmMoJy9LfKDc=
+
+Name: assets/media/grid_final.vert
+SHA1-Digest: J9K48bMhS2hA/ZAVNAtq0A9Z10A=
+
+Name: assets/media/tile_texture3.bmp
+SHA1-Digest: gELIE4hVb5saRFCm3FE6+hjFgZo=
+
+Name: assets/media/na_mod_label/texture.bmp
+SHA1-Digest: O6yPp9QbEn7yP+OwljO09nYosq0=
+
+Name: assets/media/patterns/heart.bmp
+SHA1-Digest: /y0eS0bpRNL2TY4nDpXXz3PIlcM=
+
+Name: assets/media/oscilloscope_texture_3.bmp
+SHA1-Digest: XxHM1oUECQ7MRIUwDGZbs6X+H1M=
+
+Name: res/drawable-mdpi-v4/icon.png
+SHA1-Digest: qmR2sSGIRlqVPh9yoKAkfa2kn9c=
+
+Name: resources.arsc
+SHA1-Digest: KZiPWTdrAtbp90iORfVLEVDY7lw=
+
+Name: res/layout/number_edit_dialog_seekbar_layout.xml
+SHA1-Digest: QxoGJgZG1NJZJCp0Z+iiRipdmiM=
+
+Name: assets/media/oscilloscope_texture.bmp
+SHA1-Digest: w1tJgFrOejiCnow/FSZgtnbrcAE=
+
+Name: assets/media/wf_shader.frag
+SHA1-Digest: phf73T8uSgqMxcx8CPQ2mXpcT4c=
+
+Name: assets/media/patterns/android.bmp
+SHA1-Digest: LGP5cJ2srK8P/tOwbY5RaWXmixc=
+
+Name: res/drawable/icon2.png
+SHA1-Digest: nGmFApGi+zmqZIra9TDcLto0m/s=
+
+Name: AndroidManifest.xml
+SHA1-Digest: UYAOryRdC/Vac+UJtHNgTVYNWDI=
+
+Name: res/layout/rate_dlg_layout.xml
+SHA1-Digest: XvLW1oamnYr/b1PhKGkJDVHgpHo=
+
+Name: assets/media/patterns/smiley.bmp
+SHA1-Digest: anom8pMuO/OiD75PQN8GT9TWcNw=
+
+Name: assets/media/tile_texture3_verysmall.bmp
+SHA1-Digest: 49yNsyXbX2oEoYSrhw8ou/iGdIA=
+
+Name: assets/media/patterns/android_3.bmp
+SHA1-Digest: dJDg+hHrG5I6d58l2AGYPoGfgkc=
+
+Name: assets/media/wf_shader.vert
+SHA1-Digest: 6ilbntG/aEavcoKw59qIPqWacpU=
+
+Name: assets/media/patterns/13.bmp
+SHA1-Digest: OHwpZBK0+hpe/sNNCyqwQVACQOQ=
+
+Name: res/xml/settings_default.xml
+SHA1-Digest: V4/6M4hW/6ioD12IqTCRK5p0rjs=
+
+Name: lib/armeabi-v7a/libpopular_native.so
+SHA1-Digest: oFR9odxb+CMfe1To4QtVIXfdRv0=
+
+Name: res/xml/popular.xml
+SHA1-Digest: kHsP8bq6uJQkRdmsu7hR/mJePlI=
+
+Name: assets/media/patterns/star_3.bmp
+SHA1-Digest: Ag8uItHSFSu+iUOaya6aQYC9fW4=
+
+Name: assets/media/patterns/dollar.bmp
+SHA1-Digest: d5v7L7vJNkDoh6Wla6OMN+EESE8=
+
+Name: assets/media/patterns/lol.bmp
+SHA1-Digest: Ho1XZsLAi4+u30XVcD/gZR8qHaU=
+
+Name: classes.dex
+SHA1-Digest: Fna43SGrStLMgGFKylalPuqyvWY=
+
+Name: res/layout/trial_setting_replacement_dialog_layout.xml
+SHA1-Digest: SqD8JmKTGc91g00+C3bs9OqPWrU=
+
+Name: res/layout-land/color_picker_hsv_dialog.xml
+SHA1-Digest: 7zdRW6i/m5uVSFmUyeD7Ll2B5cM=
+
+Name: assets/media/patterns/android_2.bmp
+SHA1-Digest: 1RskcfWkm0Ekj51Jp34ZX4r0AnA=
+
+Name: res/drawable/toast_icon.png
+SHA1-Digest: Lew2ZO0JHVDVBYlcFVDQyiE0wVE=
+
+Name: res/layout/preference_activity_layout.xml
+SHA1-Digest: s1Aze8qqeQ/n30lA/dUN01glGbQ=
+
+Name: res/drawable/icon.png
+SHA1-Digest: nGmFApGi+zmqZIra9TDcLto0m/s=
+
+Name: res/layout/launcher_toast_layout.xml
+SHA1-Digest: jnX/3oGLKQ8zb9cRD0kuh/TFokw=
+
+Name: res/drawable-xxhdpi-v4/icon.png
+SHA1-Digest: MiICcnMOGQ66nC2SWRA8deNO1QI=
+
+Name: res/layout/slider_dialog_layout.xml
+SHA1-Digest: pH063NPBdoOwU92I1FFY9c2FDhE=
+
+Name: res/drawable-ldpi-v4/icon.png
+SHA1-Digest: JufYLSd0e+eTltv9s+zdqioVVXg=
+
+Name: assets/media/patterns/star_2.bmp
+SHA1-Digest: pqHnrzbzZ6/inPAgzj6bNt0MY5o=
+
+Name: res/layout/number_edit_dialog_layout.xml
+SHA1-Digest: pVSnbow/HCpr4locoXLSJit0Cr4=
+
+Name: assets/media/tile_texture.bmp
+SHA1-Digest: 8LKWWIxsNrvwUh34jt0z/X5hXrk=
+

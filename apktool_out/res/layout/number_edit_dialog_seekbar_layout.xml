@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dp" android:layout_marginTop="10.0dp" android:layout_marginRight="5.0dp" android:layout_marginBottom="5.0dp">
+        <LinearLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <EditText android:id="@id/editText_number" android:paddingRight="10.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:editable="true" android:layout_weight="1.0" android:inputType="number" />
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/textView_label" android:paddingLeft="10.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+        </LinearLayout>
+        <SeekBar android:layout_gravity="fill_horizontal" android:id="@id/seekBar" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" />
+        <LinearLayout android:layout_gravity="fill_horizontal" android:id="@id/linearLayout1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp">
+            <Button android:id="@id/button_cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Cancel" android:layout_weight="0.5" />
+            <Button android:id="@id/button_ok" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dp" android:text="Ok" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
